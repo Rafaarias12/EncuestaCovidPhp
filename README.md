@@ -1,0 +1,2 @@
+# EncuestaCovidPhp
+Encuesta de autogestión
