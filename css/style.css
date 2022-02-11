@@ -1,0 +1,69 @@
+.logo{
+	background: white;
+    position: relative;
+    width: 27%;
+}
+header{
+	    background: green;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.titulo{
+	margin:auto;
+	/*text-aling:center;*/
+	font-size: 163%;
+}
+
+main{
+	margin-right: 10%;
+    margin-left: 10%;
+}
+
+body{
+	background:#F2FAF0;
+}
+
+.radio {
+    left: 8%;
+}
+
+@media (max-width: 1000px){
+        header{
+                /* Reverse the axis of the header, making it vertical. */
+                flex-direction: column;
+                
+                /* Align items to the begining (the left) of the header. */
+                align-items: flex-start;
+
+                margin: 4%;
+        }
+        label .logo{
+        	width: 44%;
+        }
+        .titulo{
+            margin: auto;
+            text-align: center;
+            /*font-size: 886%;*/
+            
+        }
+        p{
+        	/*font-size: 253%;*/
+    		margin: 2%;
+        }
+        main{
+			margin-right: 4%;
+			margin-left:4%;
+        }    
+        body{
+            font-size: 323%;
+        }
+        .texto{
+            font-size: 97%;
+        }
+        .buttom{
+            font-size: 88%;
+        }
+}
